@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.youliao.ylguquan.widget.MultipleStatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:contentView="@layout/main_content"
+    app:emptyView="@layout/empty_view"
+    app:errorView="@layout/error_view"
+    app:loadingView="@layout/loading_view"
+    app:noNetworkView="@layout/no_network_view"
+    tools:context="com.youliao.ylguquan.ui.activity.MainActivity">
+
+         <!--         内容视图可以直接在app:contentView属性指定layout文件，如上。
+
+        第二种用法：
+        直接写在MultipleStatusView节点内，如下。
+
+        <TextView
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+        
+            android:text="内容视图"
+  -->
+
+
+</com.youliao.ylguquan.widget.MultipleStatusView>
